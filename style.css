@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: rgb(2, 2, 41);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.section{
+    height: 85vh;
+}
+.heading{
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+.image{
+    margin: 10%;
+    width: 250px;
+}
+
+.shuffle-btn{
+    background-color: rgb(75, 75, 75);
+    margin: 10%;
+    font-weight: bolder;
+    font-size: 2rem;
+    cursor: pointer;
+    width: 200px;
+    height: 75px;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+    line-height: 3vh;
+  }
+  
+  footer a:visited {
+    color: inherit;
+  }
